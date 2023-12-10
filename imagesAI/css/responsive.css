@@ -1,0 +1,138 @@
+/*--- Extra large devices (large desktops, 1400px and up) -----*/
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1290px;
+  }
+
+  .container_md {
+    max-width: 1150px;
+  }
+}
+
+/* ------ Medium devices (tablets, 991px and down) -----*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .footer_right {
+    gap: 3.5rem;
+  }
+}
+
+/* ------ Medium devices (tablets, 991px and down) -----*/
+
+@media (max-width: 991px) {
+  .menu {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: inline-block;
+  }
+
+  .ofcavas-menu {
+    display: block;
+  }
+
+  /* ================== Style By Sahriar Alam ================= */
+
+  /* ----------- Comment Section ------------- */
+  .comment_section .row {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem 2.5rem;
+  }
+
+  /* ------------ Footer Section ------------- */
+  .footer_content {
+    flex-direction: column;
+  }
+}
+
+/*----- sm devices (tablets, 767px and down) -----*/
+
+@media (max-width: 767px) {
+  /* ================== Style By Sahriar Alam ================= */
+
+  /* ----------- Comment Section ------------- */
+  .comment_section .text_lg {
+    width: 100%;
+  }
+  .comment_box {
+    padding: 1.8rem;
+    border-radius: 1.5rem;
+  }
+  .main_comment p,
+  .main_comment {
+    padding-bottom: 1.5rem;
+  }
+  .comment_section .row {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem 2.5rem;
+    margin: 0 1rem;
+  }
+  .main_comment p,
+  .profile h3,
+  .profile p,
+  .date_time p {
+    font-size: 1.4rem;
+  }
+  .topleft img {
+    width: 4rem;
+  }
+
+  /* ------------- Email Section ------------- */
+  .email_box {
+    border-radius: 0;
+    padding: 6.5rem 3rem;
+  }
+  .email_icon {
+    padding-bottom: 1rem;
+  }
+  .email_form {
+    width: 100%;
+    height: 5rem;
+    border-radius: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 0.5rem;
+  }
+
+  /* ----------- Footer Section --------------- */
+  .footer_section {
+    margin-top: 5rem;
+  }
+  .footer_content {
+    flex-direction: column;
+    align-items: flex-start !important;
+    gap: 3.5rem;
+    padding: 5rem 1rem;
+  }
+  .footer_text {
+    width: 100%;
+    font-size: 1.4rem;
+    line-height: 140%;
+    text-align: center;
+  }
+  .footer_box a {
+    font-size: 1.6rem;
+  }
+  br {
+    display: none;
+  }
+  .footer_right {
+    flex-direction: column;
+    gap: 4rem;
+    align-items: flex-start !important;
+  }
+  .copywrite {
+    height: 5.5rem;
+  }
+}
+
+/*----- xs devices (landscape phones, 575px and down) -----*/
+
+@media (max-width: 575px) {
+  /* ------------- Email Section ------------- */
+  .email_section .container {
+    padding: 0;
+  }
+}

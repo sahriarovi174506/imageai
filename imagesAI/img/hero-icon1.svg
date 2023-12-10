@@ -1,0 +1,10 @@
+<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="auto_awesome">
+<mask id="mask0_44_2013" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="14" height="14">
+<rect id="Bounding box" width="14" height="14" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_44_2013)">
+<path id="auto_awesome_2" d="M11.0833 5.25018L10.3541 3.64602L8.74992 2.91685L10.3541 2.18768L11.0833 0.583516L11.8124 2.18768L13.4166 2.91685L11.8124 3.64602L11.0833 5.25018ZM11.0833 13.4169L10.3541 11.8127L8.74992 11.0835L10.3541 10.3544L11.0833 8.75018L11.8124 10.3544L13.4166 11.0835L11.8124 11.8127L11.0833 13.4169ZM5.24992 11.6669L3.79159 8.45852L0.583252 7.00018L3.79159 5.54185L5.24992 2.33352L6.70825 5.54185L9.91659 7.00018L6.70825 8.45852L5.24992 11.6669Z" fill="white" fill-opacity="0.8"/>
+</g>
+</g>
+</svg>
